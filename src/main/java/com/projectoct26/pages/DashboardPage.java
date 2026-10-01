@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class DashboardPage extends BasePage {
 
     private final By dashboardHeading = By.xpath("//h6[normalize-space()='Dashboard']");
-    private final By adminButton = By.xpath("//span[text()='Admin']//ancestor::li[@class='oxd-main-menu-item-wrapper']");
+    private final By adminButton = By.xpath("//span[normalize-space()='Admin']/ancestor::a");
     private final By adminPageHeading = By.xpath("//h6[normalize-space()='Admin']");
 
     public boolean isDashboardDisplayed() {
