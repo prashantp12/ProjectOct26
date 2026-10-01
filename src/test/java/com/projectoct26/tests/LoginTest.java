@@ -51,4 +51,9 @@ public class LoginTest extends BaseTest {
     void testCase2(){
         System.out.println("Test case 2");
     }
+
+    @Test
+    void testCase3(){
+        System.out.println("Test case 3");
+    }
 }
