@@ -81,7 +81,7 @@ The included `Jenkinsfile`:
 - Runs the Selenium suite
 - Publishes JUnit/Surefire results
 - Archives failure screenshots
-- Schedules execution at 10:30 AM IST on weekdays.
+- Schedules execution at 10:30 AM IST on weekdays
 
 For Jenkins to use the Jenkinsfile, create a Pipeline job connected to this GitHub repository and select "Pipeline script from SCM".
 
