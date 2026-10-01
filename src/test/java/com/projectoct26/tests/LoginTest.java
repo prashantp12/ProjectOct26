@@ -41,4 +41,9 @@ public class LoginTest extends BaseTest {
 //        DashboardPage dashboardPage = new DashboardPage();
 //        dashboardPage.isAdminPageDisplayed();
 //    }
+
+    @Test
+    void testCase1(){
+        System.out.println("Test case 1");
+    }
 }
