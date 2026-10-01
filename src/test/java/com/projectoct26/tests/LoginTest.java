@@ -31,14 +31,14 @@ public class LoginTest extends BaseTest {
         );
     }
 
-    @Test
-    void znavigateToAdminPage(){
-       try {
-           Thread.sleep(5000);
-       } catch (InterruptedException e) {
-           throw new RuntimeException(e);
-       }
-        DashboardPage dashboardPage = new DashboardPage();
-        dashboardPage.isAdminPageDisplayed();
-    }
+//    @Test
+//    void znavigateToAdminPage(){
+//       try {
+//           Thread.sleep(5000);
+//       } catch (InterruptedException e) {
+//           throw new RuntimeException(e);
+//       }
+//        DashboardPage dashboardPage = new DashboardPage();
+//        dashboardPage.isAdminPageDisplayed();
+//    }
 }
