@@ -10,6 +10,7 @@ public class ArrayLeader {
     public static void printLeaders(int[] arr) {
         int n = arr.length;
         int maxFromRight = arr[n - 1];
+        System.out.println("leader details are: ");
         System.out.print(maxFromRight + " ");
 
         for (int i = n - 2; i >= 0; i--) {
