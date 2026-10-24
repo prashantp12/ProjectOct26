@@ -63,12 +63,12 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-<<<<<<< HEAD
     void testCas5(){
         System.out.println("Test case 5555");
-=======
+    }
+
+    @Test
     void testCas6(){
         System.out.println("Test case 6");
->>>>>>> origin/master
     }
 }
