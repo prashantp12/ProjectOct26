@@ -9,6 +9,7 @@ public class FindLeaders {
             for (int j = i+1; j < arr.length; j++) {
                 if (arr[i] <= arr[j]) {
                     isLeader = false;
+                    break;
                 }
             }
             if (isLeader) {
